@@ -7,6 +7,9 @@ ruby '2.7.4'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
+gem 'pg_search', '~> 2.3.0'
+gem 'elasticsearch', "< 7.14" # to use a supported version of the Elasticsearch Ruby client
+gem 'searchkick', '~> 4.0'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
@@ -21,6 +24,9 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'elasticsearch', "< 7.14" # to use a supported version of the Elasticsearch Ruby client
+gem 'searchkick', '~> 4.0'
+gem "algoliasearch-rails"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
